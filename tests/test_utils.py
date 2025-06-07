@@ -14,7 +14,7 @@ __author__ = 'powercheng'
 
 import pytest
 
-from src.mcp_hexo_server.utils import run_command
+from src.hexo_mcp_server.utils import run_command
 
 
 @pytest.mark.asyncio

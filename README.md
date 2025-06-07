@@ -21,10 +21,10 @@ Hexo MCP Server 旨在通过 MCP 协议帮助你自动化和管理 Hexo 博客�
 ```json
 {
   "mcpServers": {
-    "mcp-hexo-server": {
+    "hexo-mcp-server": {
       "command": "uvx",
       "args": [
-        "mcp-hexo-server"
+        "hexo-mcp-server"
       ],
       "env": {
         "HEXO_DIR": "<YOUR_HEXO_DIRECTORY>"
@@ -38,10 +38,10 @@ Hexo MCP Server 旨在通过 MCP 协议帮助你自动化和管理 Hexo 博客�
 ```json
 {
   "mcpServers": {
-    "mcp-hexo-server": {
+    "hexo-mcp-server": {
       "command": "uvx",
       "args": [
-        "mcp-hexo-server"
+        "hexo-mcp-server"
       ],
       "env": {
         "HEXO_DIR": "D:\\study\\myblog"

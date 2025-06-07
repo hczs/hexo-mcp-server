@@ -21,10 +21,10 @@ Install via JSON configuration
 ```json
 {
   "mcpServers": {
-    "mcp-hexo-server": {
+    "hexo-mcp-server": {
       "command": "uvx",
       "args": [
-        "mcp-hexo-server"
+        "hexo-mcp-server"
       ],
       "env": {
         "HEXO_DIR": "<YOUR_HEXO_DIRECTORY>"
@@ -38,10 +38,10 @@ Note: Be sure to configure the HEXO_DIR environment variable in the JSON to your
 ```json
 {
   "mcpServers": {
-    "mcp-hexo-server": {
+    "hexo-mcp-server": {
       "command": "uvx",
       "args": [
-        "mcp-hexo-server"
+        "hexo-mcp-server"
       ],
       "env": {
         "HEXO_DIR": "D:\\study\\myblog"

@@ -13,7 +13,7 @@
 
 __author__ = "powercheng"
 
-from src.mcp_hexo_server.server import app
+from src.hexo_mcp_server.server import app
 from loguru import logger
 
 logger.info(f"Started MCP Hexo Server development mode: {app.name}")

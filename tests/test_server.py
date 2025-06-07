@@ -13,7 +13,7 @@
 __author__ = 'powercheng'
 
 import pytest
-from src.mcp_hexo_server.server import create_hexo_page
+from src.hexo_mcp_server.server import create_hexo_page
 
 
 @pytest.mark.asyncio

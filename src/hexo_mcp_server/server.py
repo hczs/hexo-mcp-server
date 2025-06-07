@@ -19,7 +19,7 @@ from mcp.server.fastmcp import FastMCP
 
 from . import utils
 
-app = FastMCP("mcp-hexo-server")
+app = FastMCP("hexo-mcp-server")
 
 BASE_DIR = os.getenv("HEXO_DIR")
 

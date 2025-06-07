@@ -212,6 +212,37 @@ wheels = [
 ]
 
 [[package]]
+name = "hexo-mcp-server"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "loguru" },
+    { name = "mcp", extra = ["cli"] },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "hatchling" },
+    { name = "pytest" },
+    { name = "pytest-asyncio" },
+    { name = "twine" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "loguru", specifier = ">=0.7.3" },
+    { name = "mcp", extras = ["cli"], specifier = ">=1.9.3" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "hatchling", specifier = ">=1.27.0" },
+    { name = "pytest", specifier = ">=8.4.0" },
+    { name = "pytest-asyncio", specifier = ">=1.0.0" },
+    { name = "twine", specifier = ">=6.1.0" },
+]
+
+[[package]]
 name = "httpcore"
 version = "1.0.9"
 source = { registry = "https://pypi.org/simple" }
@@ -402,37 +433,6 @@ wheels = [
 cli = [
     { name = "python-dotenv" },
     { name = "typer" },
-]
-
-[[package]]
-name = "mcp-hexo-server"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "loguru" },
-    { name = "mcp", extra = ["cli"] },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "hatchling" },
-    { name = "pytest" },
-    { name = "pytest-asyncio" },
-    { name = "twine" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "loguru", specifier = ">=0.7.3" },
-    { name = "mcp", extras = ["cli"], specifier = ">=1.9.3" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "hatchling", specifier = ">=1.27.0" },
-    { name = "pytest", specifier = ">=8.4.0" },
-    { name = "pytest-asyncio", specifier = ">=1.0.0" },
-    { name = "twine", specifier = ">=6.1.0" },
 ]
 
 [[package]]

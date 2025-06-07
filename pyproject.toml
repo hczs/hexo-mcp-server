@@ -1,5 +1,5 @@
 [project]
-name = "mcp-hexo-server"
+name = "hexo-mcp-server"
 version = "0.1.0"
 description = "A mcp server for Hexo"
 authors = [
@@ -21,7 +21,7 @@ dev = [
 ]
 
 [project.scripts]
-mcp-hexo-server = "mcp_hexo_server.server:main"
+hexo-mcp-server = "hexo_mcp_server.server:main"
 
 [build-system]
 requires = ["hatchling"]
