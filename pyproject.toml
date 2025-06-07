@@ -1,0 +1,28 @@
+[project]
+name = "mcp-hexo-server"
+version = "0.1.0"
+description = "A mcp server for Hexo"
+authors = [
+    { name = "powercheng", email = "hczshd@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "loguru>=0.7.3",
+    "mcp[cli]>=1.9.3",
+]
+
+[dependency-groups]
+dev = [
+    "hatchling>=1.27.0",
+    "pytest>=8.4.0",
+    "pytest-asyncio>=1.0.0",
+    "twine>=6.1.0",
+]
+
+[project.scripts]
+mcp-hexo-server = "mcp_hexo_server.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
